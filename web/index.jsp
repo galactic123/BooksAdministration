@@ -16,21 +16,6 @@
     <%
       response.sendRedirect("login.jsp");
     %>
-    <table>
-      <tr>
-        <th>用户名</th>
-        <th>密码</th>
-      </tr>
-      <c:forEach items="${list}" var="user">
-        <tr>
-          <td>
-            ${user.username}
-          </td>
-          <td>
-            ${user.password}
-          </td>
-        </tr>
-      </c:forEach>
-    </table>
+    
   </body>
 </html>
