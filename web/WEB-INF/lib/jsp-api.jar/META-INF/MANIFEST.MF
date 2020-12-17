@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1599726112335
+Bundle-ManifestVersion: 2
+Bundle-Name: tomcat-jsp-api
+Bundle-SymbolicName: org.apache.tomcat-jsp-api
+Bundle-Version: 9.0.38
+Created-By: 1.8.0_252 (AdoptOpenJDK)
+DSTAMP: 20200910
+Export-Package: javax.servlet.jsp;version="2.3";uses:="javax.el,javax.
+ servlet,javax.servlet.http,javax.servlet.jsp.el,javax.servlet.jsp.tag
+ ext",javax.servlet.jsp.el;version="2.3";uses:="javax.el",javax.servle
+ t.jsp.resources;version="2.3",javax.servlet.jsp.tagext;version="2.3";
+ uses:="javax.servlet.jsp"
+Import-Package: javax.el,javax.servlet,javax.servlet.http,javax.servle
+ t.jsp;version="[2.3,3)",javax.servlet.jsp.el;version="[2.3,3)",javax.
+ servlet.jsp.tagext;version="[2.3,3)"
+Provide-Capability: osgi.contract;osgi.contract=JavaJSP;version:List<V
+ ersion>="2.3,2.2,2.1,2";uses:="javax.servlet.jsp,javax.servlet.jsp.el
+ ,javax.servlet.jsp.resources,javax.servlet.jsp.tagext"
+Require-Capability: osgi.contract;osgi.contract=JavaEL;filter:="(&(osg
+ i.contract=JavaEL)(version=3.0.0))",osgi.contract;osgi.contract=JavaS
+ ervlet;filter:="(&(osgi.contract=JavaServlet)(version=4.0.0))",osgi.e
+ e;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+TODAY: September 10 2020
+Tool: Bnd-5.1.1.202006162103
+TSTAMP: 0920
+X-Compile-Source-JDK: 8
+X-Compile-Target-JDK: 8
+
+Name: javax/servlet/jsp/
+Implementation-Title: javax.servlet.jsp
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 2.3.FR
+Specification-Title: Java API for JavaServer Pages
+Specification-Vendor: Sun Microsystems, Inc.
+Specification-Version: 2.3
+
+Name: javax/servlet/jsp/el/
+Implementation-Title: javax.servlet.jsp
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 2.3.FR
+Specification-Title: Java API for JavaServer Pages
+Specification-Vendor: Sun Microsystems, Inc.
+Specification-Version: 2.3
+
+Name: javax/servlet/jsp/resources/
+Implementation-Title: javax.servlet.jsp
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 2.3.FR
+Specification-Title: Java API for JavaServer Pages
+Specification-Vendor: Sun Microsystems, Inc.
+Specification-Version: 2.3
+
+Name: javax/servlet/jsp/tagext/
+Implementation-Title: javax.servlet.jsp
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 2.3.FR
+Specification-Title: Java API for JavaServer Pages
+Specification-Vendor: Sun Microsystems, Inc.
+Specification-Version: 2.3
+

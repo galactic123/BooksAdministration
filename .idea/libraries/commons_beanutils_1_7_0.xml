@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="commons-beanutils-1.7.0">
+    <CLASSES>
+      <root url="jar://D:/JAVA/commons-beanutils-1.7.0.jar!/" />
+      <root url="jar://D:/JAVA/commons-collections-3.2.1.jar!/" />
+      <root url="jar://D:/JAVA/commons-fileupload-1.4-tests.jar!/" />
+      <root url="jar://D:/JAVA/commons-fileupload-1.4.jar!/" />
+      <root url="jar://D:/JAVA/commons-httpclient-3.1.jar!/" />
+      <root url="jar://D:/JAVA/commons-io-2.8.0.jar!/" />
+      <root url="jar://D:/JAVA/commons-lang-2.3.jar!/" />
+      <root url="jar://D:/JAVA/commons-logging-1.1.1.jar!/" />
+      <root url="jar://D:/JAVA/ezmorph-1.0.3.jar!/" />
+      <root url="jar://D:/JAVA/json-lib-2.2.3-jdk15.jar!/" />
+      <root url="jar://D:/JAVA/jstl.jar!/" />
+      <root url="jar://D:/JAVA/standard.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/JAVA/commons-fileupload-1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/JAVA/commons-fileupload-1.4-sources.jar!/" />
+      <root url="jar://D:/JAVA/commons-fileupload-1.4-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

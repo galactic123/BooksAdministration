@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache Commons IO
+Bundle-Description: The Apache Commons IO library contains utility cla
+ sses, stream implementations, file filters,file comparators, endian t
+ ransformation classes, and much more.
+Automatic-Module-Name: org.apache.commons.io
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.commons-io
+Implementation-Version: 2.8.0
+Specification-Vendor: The Apache Software Foundation
+Bnd-LastModified: 1599400474265
+Bundle-ManifestVersion: 2
+Specification-Title: Apache Commons IO
+Bundle-DocURL: https://commons.apache.org/proper/commons-io/
+Bundle-Vendor: The Apache Software Foundation
+Include-Resource: META-INF/NOTICE.txt=NOTICE.txt,META-INF/LICENSE.txt=
+ LICENSE.txt
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.2.202007211702
+Implementation-Vendor: The Apache Software Foundation
+Export-Package: org.apache.commons.io;version="1.4.9999",org.apache.co
+ mmons.io.comparator;version="1.4.9999",org.apache.commons.io.comparat
+ or;version="2.8.0",org.apache.commons.io.file;version="2.8.0",org.apa
+ che.commons.io.filefilter;version="1.4.9999",org.apache.commons.io.fi
+ lefilter;version="2.8.0",org.apache.commons.io.function;version="2.8.
+ 0",org.apache.commons.io.input;version="1.4.9999",org.apache.commons.
+ io.input.buffer;version="2.8.0",org.apache.commons.io.input;version="
+ 2.8.0",org.apache.commons.io.monitor;version="2.8.0",org.apache.commo
+ ns.io.output;version="1.4.9999",org.apache.commons.io.output;version=
+ "2.8.0",org.apache.commons.io.serialization;version="2.8.0",org.apach
+ e.commons.io;version="2.8.0"
+Bundle-Name: Apache Commons IO
+Bundle-Version: 2.8.0
+Build-Jdk-Spec: 1.8
+Created-By: Apache Maven Bundle Plugin
+Specification-Version: 2.8
+
