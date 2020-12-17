@@ -16,7 +16,7 @@ public class UserRepository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/user_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from table_name";
             preparedStatement = connection.prepareStatement(sql);
@@ -53,7 +53,7 @@ public class UserRepository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/user_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "update table_name set password = ? where username = ?";
             preparedStatement = connection.prepareStatement(sql);
@@ -86,7 +86,7 @@ public class UserRepository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/user_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select table_name.password from table_name where table_name.username = ?";
 
@@ -131,7 +131,7 @@ public class UserRepository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/user_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from table_name where table_name.username = ?";
 
@@ -172,7 +172,7 @@ public class UserRepository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/user_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "insert into table_name value (?,?)";
             preparedStatement = connection.prepareStatement(sql);

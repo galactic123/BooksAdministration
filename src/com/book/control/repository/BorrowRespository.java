@@ -20,7 +20,7 @@ public class BorrowRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/borrow_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from borrowinfo";
             preparedStatement = connection.prepareStatement(sql);
@@ -63,7 +63,7 @@ public class BorrowRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/borrow_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from borrowinfo where statu = '违约' or statu = '待处理'";
             preparedStatement = connection.prepareStatement(sql);
@@ -105,7 +105,7 @@ public class BorrowRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/borrow_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "delete from borrowinfo where id = ?";
 
@@ -137,7 +137,7 @@ public class BorrowRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/borrow_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
             String nowtime = simpleDateFormat.format(new Date()).toString();
@@ -170,7 +170,7 @@ public class BorrowRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/borrow_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from borrowinfo where username = ? and statu != '违约' and statu !='待处理'";
             preparedStatement = connection.prepareStatement(sql);
@@ -214,7 +214,7 @@ public class BorrowRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/borrow_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from borrowinfo where username = ? and (statu = '违约' or statu = '待处理')";
             preparedStatement = connection.prepareStatement(sql);
@@ -257,7 +257,7 @@ public class BorrowRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/borrow_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "update borrowinfo set "+ setoption +" = ? where id = ? ";
             preparedStatement = connection.prepareStatement(sql);
@@ -290,7 +290,7 @@ public class BorrowRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/borrow_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from borrowinfo";
             preparedStatement = connection.prepareStatement(sql);
@@ -324,7 +324,7 @@ public class BorrowRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/borrow_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
             Date today = new Date();

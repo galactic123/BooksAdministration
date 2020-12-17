@@ -16,7 +16,7 @@ public class BookRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/book_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from booksinfo";
             preparedStatement = connection.prepareStatement(sql);
@@ -58,7 +58,7 @@ public class BookRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/book_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from booksinfo where booksinfo.id = ?";
             preparedStatement = connection.prepareStatement(sql);
@@ -102,7 +102,7 @@ public class BookRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/book_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from booksinfo where booksinfo.name = ?";
             preparedStatement = connection.prepareStatement(sql);
@@ -145,7 +145,7 @@ public class BookRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/book_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from booksinfo where booksinfo.statu = ?";
             preparedStatement = connection.prepareStatement(sql);
@@ -189,7 +189,7 @@ public class BookRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/book_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "select * from booksinfo";
             preparedStatement = connection.prepareStatement(sql);
@@ -224,7 +224,7 @@ public class BookRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/book_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String op = getCountData().toString();
             System.out.println(op);
@@ -255,7 +255,7 @@ public class BookRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/book_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "update booksinfo set "+setoption+" = ? where id = ?";
             preparedStatement = connection.prepareStatement(sql);
@@ -286,7 +286,7 @@ public class BookRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/book_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             String sql = "delete from booksinfo where id = ?";
             preparedStatement = connection.prepareStatement(sql);

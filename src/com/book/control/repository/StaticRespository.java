@@ -19,7 +19,7 @@ public class StaticRespository {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/user_list?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
             String user="root";
-            String password="ls15212567561";
+            String password="***";
             connection = DriverManager.getConnection(url,user,password);
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
             String nowtime = simpleDateFormat.format(new Date()).toString();
